@@ -4,10 +4,10 @@
  int max(int a, int b);
  int main() {
  int i;
- int n; // No of items
- int W; // Capacity of the knapsack
- int wt[MAX_ITEMS]; // Weights of 'n' items
- int val[MAX_ITEMS]; // Values of 'n' items
+ int n;
+ int W; 
+ int wt[MAX_ITEMS]; 
+ int val[MAX_ITEMS]; 
  printf("Enter the number of items: ");
  scanf("%d", &n);
  printf("Enter the weights of the items:\n");
