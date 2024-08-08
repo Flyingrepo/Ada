@@ -49,7 +49,7 @@ j = 0;
  int arr[n];
 srand(time(NULL));
  for (int i = 0; i < n; ++i) {
- arr[i] = rand() % 10000; // Generate random numbers between 0 and 9999
+ arr[i] = rand() % 10000; 
  }
  clock_t start = clock();
  mergeSort(arr, 0, n- 1);
